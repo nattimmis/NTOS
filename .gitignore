@@ -1,6 +1,3 @@
-.gradle
-build/
-
 # Ignore Gradle GUI config
 gradle-app.setting
 
@@ -12,3 +9,41 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+
+# Maven build directory
+target
+
+# Copied from Kafka for ignoring Java stuff
+dist
+*classes
+target/
+build/
+build_eclipse/
+.gradle/
+project/boot/
+project/plugins/project/
+.idea
+.svn
+.classpath
+/.metadata
+/.recommenders
+*~
+*#
+.#*
+rat.out
+TAGS
+*.iml
+.project
+.settings
+/logs
+.DS_Store
+
+gradle/wrapper/*
+gradlew
+gradlew.bat
+
+results
+tests/results
+.cache
+
+docs/generated/
