@@ -213,12 +213,13 @@
             <version>5.1.34</version>
         </dependency>
         
+        <!-- https://mvnrepository.com/artifact/org.apache.derby/derby -->
         <dependency>
             <groupId>org.apache.derby</groupId>
             <artifactId>derby</artifactId>
-            <version>10.10.2.0</version>
+            <version>10.13.1.1</version>
         </dependency>
-        
+
         <dependency>
             <groupId>xml-apis</groupId>
             <artifactId>xml-apis</artifactId>
@@ -237,7 +238,14 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        
+
+        <!-- https://mvnrepository.com/artifact/org.jdesktop.layout/swing-layout -->
+        <dependency>
+            <groupId>org.jdesktop.layout</groupId>
+            <artifactId>swing-layout</artifactId>
+            <version>1.0</version>
+        </dependency>
+
         <!-- Batik Dependencies -->
         <dependency>
             <groupId>batik</groupId>
@@ -357,7 +365,6 @@
                 </configuration>
             </plugin>
             
-            <!--
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
@@ -369,7 +376,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>-->
+            </plugin>
             
             <plugin>
                 <artifactId>maven-resources-plugin</artifactId>
